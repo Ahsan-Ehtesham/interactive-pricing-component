@@ -1,0 +1,100 @@
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body {
+  background: url("./images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fafbff;
+  font-size: 15px;
+  font-family: "Manrope", sans-serif;
+}
+
+.head-container {
+  background: url("./images/pattern-circles.svg") no-repeat center;
+  background-size: contain;
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.container #head {
+  color: #293356;
+  font-weight: bold;
+}
+
+.container .head-text {
+  color: #858fad;
+}
+
+.main {
+  background-color: hsl 0, 0%, 100%;
+  width: 75%;
+  height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vw;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slidecontainer .slider {
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  -moz-appearance: none;
+       appearance: none;
+  width: 75%;
+  /* Full-width */
+  height: 15px;
+  /* Specified height */
+  border-radius: 15%;
+  background: #cdd7ee;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  -webkit-transition: 0.2s;
+  /* 0.2 seconds transition on hover */
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slidecontainer .slider:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */
+}
+
+.slidecontainer .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border-radius: 50%;
+  background: #10d5c2 url("./images/icon-slider.svg") no-repeat center;
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+.slidecontainer .slider::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #10d5c2 url("./images/icon-slider.svg") no-repeat center;
+  cursor: pointer;
+  /* Cursor on hover */
+}
+/*# sourceMappingURL=style.css.map */
