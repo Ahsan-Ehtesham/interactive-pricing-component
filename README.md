@@ -2,6 +2,14 @@
 
 ![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
 
+Made with 💙 by Ahsan Ehtesham
+
+To support me:
+
+[Github](https://github.com/Ahsan-Ehtesham/)
+
+[Linkedin](https://www.linkedin.com/in/ahsan-ehtesham-a6810018b/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
